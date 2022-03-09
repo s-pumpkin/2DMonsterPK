@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762a7bfdf0e6dfc43949df062833720d, type: 3}
+  m_Name: mage_darkAnim
+  m_EditorClassIdentifier: 
+  AnimatorController: {fileID: 9100000, guid: 7b9fb2a0438fb9949b09398e4eff1fbc, type: 2}
+  eventInfo:
+  - AnimStateValue: 13
+    AnimClip: {fileID: 7400000, guid: cb177f5518cc53f4ab27addd751ca0ef, type: 2}
+    AnimTimeLength: 0
+    Event: []
+    AnimEvent: []
+    OnshowEvent: 0
+  - AnimStateValue: 10
+    AnimClip: {fileID: 7400000, guid: 42f507e7c1a706b49abf6c3015ecc862, type: 2}
+    AnimTimeLength: 0
+    Event: []
+    AnimEvent: []
+    OnshowEvent: 0
+  - AnimStateValue: 12
+    AnimClip: {fileID: 7400000, guid: 3712785bb1da8ed459cd31a3cbecfdda, type: 2}
+    AnimTimeLength: 0
+    Event: []
+    AnimEvent: []
+    OnshowEvent: 0

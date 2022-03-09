@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762a7bfdf0e6dfc43949df062833720d, type: 3}
+  m_Name: knightAnim
+  m_EditorClassIdentifier: 
+  AnimatorController: {fileID: 9100000, guid: 8b354f425186f474bad71cccf0189ea9, type: 2}
+  eventInfo:
+  - AnimStateValue: 6
+    AnimClip: {fileID: 7400000, guid: 7f2bb596c82bb6743bf15ad659f08152, type: 2}
+    AnimTimeLength: 0
+    Event:
+    - OnshowEvent: 1
+      AnimTimeline: 0.21
+      Objtype: 1
+      effectinfo:
+        OnshowEvent: 0
+        EffectName: 
+        EffectEndTime: 0
+        speed: 0
+        FollowObject: 
+        Rotation: {x: 0, y: 0, z: 0}
+    - OnshowEvent: 1
+      AnimTimeline: 0.73
+      Objtype: 0
+      effectinfo:
+        OnshowEvent: 0
+        EffectName: 
+        EffectEndTime: 0
+        speed: 0
+        FollowObject: 
+        Rotation: {x: 0, y: 0, z: 0}
+    - OnshowEvent: 0
+      AnimTimeline: 0
+      Objtype: 0
+      effectinfo:
+        OnshowEvent: 0
+        EffectName: 
+        EffectEndTime: 0
+        speed: 0
+        FollowObject: 
+        Rotation: {x: 0, y: 0, z: 0}
+    AnimEvent: []
+    OnshowEvent: 1
+  - AnimStateValue: 8
+    AnimClip: {fileID: 7400000, guid: e8de5fd152dedce4f8b3bb2fbc529f7d, type: 2}
+    AnimTimeLength: 0
+    Event:
+    - OnshowEvent: 0
+      AnimTimeline: 0
+      Objtype: 0
+      effectinfo:
+        OnshowEvent: 0
+        EffectName: 
+        EffectEndTime: 0
+        speed: 0
+        FollowObject: 
+        Rotation: {x: 0, y: 0, z: 0}
+    AnimEvent: []
+    OnshowEvent: 0
+  - AnimStateValue: 1
+    AnimClip: {fileID: 7400000, guid: c428f2abe4ab77849bd61bc0b2e842e0, type: 2}
+    AnimTimeLength: 0
+    Event: []
+    AnimEvent: []
+    OnshowEvent: 0

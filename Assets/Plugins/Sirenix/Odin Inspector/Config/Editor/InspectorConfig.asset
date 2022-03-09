@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1137305049, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: InspectorConfig
+  m_EditorClassIdentifier: 
+  enableOdinInInspector: 1
+  defaultEditorBehaviour: 11
+  processMouseMoveInInspector: 1
+  drawingConfig:
+    configs:
+    - DrawnTypeName: animate, Assembly-CSharp-firstpass
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: UnityEditor.AnimationModeDriver, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AnimEditor, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AppStatusBar, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AssemblyDefinitionReferenceImporterInspector+AssemblyDefinitionReferenceState,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AssemblyDefinitionImporterInspector+AssemblyDefinitionState,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AssetImporter, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AvatarMappingEditor, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AvatarMuscleEditor, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AvatarPreviewSelection, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AvatarSubEditor, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ClothInspectorState, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ContainerWindow, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.CurveEditorSelection, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.DockArea, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AssetPopupBackend+DoCreateNewAsset, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.TerrainInspector+DoCreateTerrainMaterial, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.EditorBuildSettings, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.EditorSnapSettingsData, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.EditorUserBuildSettings, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.EditorUserSettings, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.EyeDropper, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.GameViewSizes, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.GridPalette, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.GUIStyleHolder, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.GUIView, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.HostView, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.HumanTemplate, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.LightingDataAsset, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.LightProbeGroupSelection, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.LineRendererEditorSettings, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.LocalCacheServer, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.MainView, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.MaximizedHostView, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ModeDescriptor, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AvatarPreview+ObjectSelectorOperation, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PaneDragTab, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.AudioImporterInspector+PlatformSettings, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PlayerConnectionLogReceiver, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PresetLibraryManager, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ReferencesArtifactGenerator, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.SavedSearchFilters, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.SceneAsset, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.SceneVisibilityManager, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.SceneVisibilityState, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ScriptReloadProperties, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.SerializableDelayedCallback, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ShaderImporterInspector+ShaderProperties, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.SplitView, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.VideoClipImporterInspector+TargetSettings, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.TextScriptImporter, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Toolbar, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Tools, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.TooltipView, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.View, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.WebView, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.WindowFocusState, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Android.AndroidBuildProperties, UnityEditor.Android.Extensions
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Animations.AnimatorController, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Animations.AnimatorTransitionBase, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Animations.GameObjectRecorder, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Audio.AudioMixerEffectController, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Build.Reporting.BuildReport, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Build.Reporting.PackedAssets, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Build.Reporting.StrippingInfo, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.EditorTools.EditorToolContext, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.MultiArtifactTestImporter, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.GraphView.GraphViewUndoRedoSelection,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.TerrainAPI.CreateTerrainTool, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.TerrainAPI.PaintDetailsTool, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.TerrainAPI.PaintHeightTool, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.TerrainAPI.PaintHolesTool, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.TerrainAPI.PaintTextureTool, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.TerrainAPI.PaintTreesTool, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.TerrainAPI.SetHeightTool, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.TerrainAPI.SmoothHeightTool, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Experimental.TerrainAPI.StampTool, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.Graph, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.GroupNode, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.Node, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.ProxyNode, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.AnimationBlendTree.Graph, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.AnimationBlendTree.GraphGUI, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.AnimationBlendTree.Node, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.AnimationStateMachine.Graph, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.AnimationStateMachine.GraphGUI, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.AnimationStateMachine.Node, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.AnimationStateMachine.StateMachineNode, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Graphs.AnimationStateMachine.StateNode, UnityEditor.Graphs
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Modules.DefaultBuildProperties, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Networking.PlayerConnection.EditorConnection, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.PackageManifestImporterEditor+PackageManifestState,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.ApplicationUtil+ApplicationUtilInternal,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.PackageDatabase+PackageDatabaseInternal,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.PackageFiltering+PackageFilteringInternal,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.PackageManagerProjectSettings,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.PageManager+PageManagerInternal,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.PlayModeDownloadState, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.Resources, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.UpmClient+UpmClientInternal, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.UpmRegistryClient+UpmRegistryClientInternal,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.AssetStore.AssetStoreCache+AssetStoreCacheInternal,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.AssetStore.AssetStoreClient+AssetStoreClientInternal,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.PackageManager.UI.AssetStore.AssetStoreOAuth+AssetStoreOAuthInternal,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Presets.DefaultPresetSelectorReceiver, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Presets.DefaultPresetReorderableList+PresetChanged,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Presets.PresetContextMenu, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreateAnimatorController,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreateAssetWithContent,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreateAudioMixer, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreateFolder, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreateFolderWithTemplates,
+        UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreateNewAsset, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreatePrefabVariant, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreateScene, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreateScriptAsset, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.ProjectWindowCallback.DoCreateSpritePolygon, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.SceneManagement.StageNavigationManager, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.UIElements.EditorWindowViewData, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.UIElements.SerializableJsonDictionary, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.UIElements.Samples.UIElementsSnippetAsset, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.VFX.VisualEffectResource, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.VFX.VisualEffectSubgraphBlock, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.VFX.VisualEffectSubgraphOperator, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Web.EditorProjectAccess, UnityEditor
+      EditorTypeName: 
+    - DrawnTypeName: UnityEditor.Web.WebScriptObject, UnityEditor
+      EditorTypeName: 
